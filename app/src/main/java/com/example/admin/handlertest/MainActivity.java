@@ -54,6 +54,7 @@ private Button btn = null;
                     Log.d(TAG, "handleMessage:---------------------------- "+Thread.currentThread().getName());
                     Log.d(TAG, "Thread ID-----------------------"+Thread.currentThread().getId());
                 }} ;
+
             Looper.loop();
         };
         }
